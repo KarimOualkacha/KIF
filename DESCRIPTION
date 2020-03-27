@@ -1,0 +1,16 @@
+Package: KIF
+Title: Kendall Interaction Filter for Variable Interaction Screening in
+        Ultra High Dimensional Classification Problems
+Version: 0.0.0.9000
+Author: Youssef Anzarmou, Abdallah Mkhadri, Karim Oualkacha
+Maintainer: Youssef Anzarmou <anzarmouysf@gmail.com>
+Description: Kendall Interaction Fliter (KIF) implementation, based on Kendall tau, to conduct Interaction Screening in the high dimensional data (multi-class classification)
+License: GPL-3
+Encoding: UTF-8
+Depends: mvtnorm, ccaPP, parallel
+LazyData: true
+RoxygenNote: 7.1.0
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2020-03-25 19:13:29 UTC; anzar
